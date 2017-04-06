@@ -15,5 +15,15 @@ docker ps or docker stats
 #To ssh  into the container 
 sudo docker exec -it <containerid>  bash
 
+#To Create an image  with latest tag
+docker tag fb37732d54a9 aramaraj/docker-python-app:latest
+
+#To Push Docker image to hub
+docker push aramaraj/docker-python-app
+
+#To Push Docker image to hub
+
+
+
 #
 curl 127.0.0.1:5000 -v
