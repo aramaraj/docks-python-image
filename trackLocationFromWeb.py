@@ -8,8 +8,8 @@ import re
 import uuid
 from time import sleep
 from uuid import getnode as get_mac
-from  geoCodeMacId import GeoWifi
 import web
+from  geoCodeMacId import GeoWifi
 import json as simplejson
 import web
 import json as simplejson
