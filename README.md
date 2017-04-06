@@ -1,9 +1,7 @@
-#Docker installation:
-
-https://docs.docker.com/engine/installation/
-
 # docker-python-app
 This is a docker python app image
+#Docker installation:
+https://docs.docker.com/engine/installation/
 
 #to build the app 
 docker build -t track-python-app .
@@ -14,7 +12,7 @@ docker build -t track-python-app .
 #to see process 
 docker ps or docker stats
 
-#TO ssh  into the container 
+#To ssh  into the container 
 sudo docker exec -it <containerid>  bash
 
 #
