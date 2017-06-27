@@ -40,16 +40,16 @@ def api_track():
           
 def sendSms(lat,lng,name):
       #msg = MIMEMutipart('alternative')
-      #msg['From'] = 'devops97@gmail.com'
-      #msg['To'] = '6122229044@txt.att.net'
+      #msg['From'] = 'youremail@gmail.com'
+      #msg['To'] = 'touremail@email.com'
       #msg['Subject'] = 'simple email in python'
       #text = "http://maps.google.com/?q="
       text = "Location of  "+name+" is maps.google.com/?q="+"%.9f" % lat+","+"%.9f" % lng
       sender='devops97@gmail.com'
-      receivers=['6122229044@txt.att.net']
-      password='Walmart$123'
+      receivers=['ouremail@email.com']
+      password='pwd'
       #message='http://maps.google.com/?q='+lat+','+lng+''
-      #message = 'ashok'
+      #message = 'hi'
       try:
          	smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
          	smtpObj.ehlo()
