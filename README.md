@@ -1,5 +1,5 @@
 # docker-python-app Application
-This application does two thing
+This application does two things
 
 1. GEt the mac id of a system and does a reverse lookup of lat long with the API.
 https://www.googleapis.com/geolocation/v1/geolocate?
